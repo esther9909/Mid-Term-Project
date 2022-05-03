@@ -51,29 +51,50 @@ li a:hover:not(.active){
     background-color: rgb(230, 251, 254);
 }
 
-
-.flex-container{
-    margin: 0px;
-    display:flex;
-    flex-direction:column;
+.container {   
+    width: 100%;
     background-color: white;
-    gap: 10px; /* 자식요소간의 간격 */
+    margin:0 auto;
 }
 
-.flex-item{
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    background-color: rgb(245, 222, 249);
-    font-size: 40px;
+.photo-wrapper{
     text-align: center;
+    margin-left: 23%;
+    margin-right: 23%;
 }
-
-.img{
-    width: 300px;
-    height: 300px;
+  
+.container img{
+    width: 350px;
+    height: 350px;
+    float: left;
+    vertical-align: bottom;
+    /* 이미지 오른쪽에 여백 넣는거*/
+    margin-right: 35px;
 }
-
+  
+.container h2{
+    padding-bottom: 23px;
+    font-size: xx-large;
+    position: top; 
+    border-bottom: solid;
+    border-width: 1px;
+    margin-left: 385px
+}
+  
+  
+.container p{
+    font-size: 20px;
+    line-height: 180%;
+}
+   
+.content1{
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    float: left;
+    border-bottom: solid;
+    border-width: 1px;
+}
 
 .footer{
     width: 100%;
