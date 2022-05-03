@@ -1,26 +1,64 @@
 main.css
 
-body {
-    font-family: monospace;
+*{
+  box-sizing: border-box;
 }
 
-ul {
-    font-family: helvetica;
+body{
+  margin: 0;
+  padding: 0;
 }
 
-li {
-    list-style: circle;
-  }
-  
-  .list {
-    list-style: square;
-  }
-  
-  #msg {
-    font-family: monospace;
-  }
 
-  .light-theme {
-    color: #000000;
-    background: #00FF00;
-  }
+video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.logotext{
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: default;
+}
+
+
+.text{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: default;
+}
+
+
+
+.logotext h2{
+  @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+  font-family: 'Jeju Gothic', sans-serif;
+  font-size: 6em;
+  text-align: justify;
+  color: black;
+  z-index: 1;
+  mix-blend-mode: overlay;
+}
+
+
+.text h4{
+  @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+  font-family: 'Jeju Gothic', sans-serif;
+  font-size: 2em;
+  text-align: justify;
+  color: black;
+  z-index: 3;
+  mix-blend-mode: overlay;
+}
+
+.li {
+  line-height:50%
+}
