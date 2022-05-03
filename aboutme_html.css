@@ -52,10 +52,23 @@ li a:hover:not(.active){
 }
 
 
-.container {   
-    width: 100%;
-    background-color: white;
-    margin:0 auto;
+.flex-container{
+    width:auto;
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+    grid-template-columns: 740px 330px; /* 각 행(세로줄)의 길이 */
+    grid-template-rows: 120px 310px 890px 130px; /* 각 열(가로줄)의 길이 */
+    gap: 10px; /* 자식요소간의 간격 */
+}
+
+.flex-item{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(245, 222, 249);
+    font-size: 40px;
+    text-align: center;
 }
 
 
