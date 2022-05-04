@@ -36,8 +36,8 @@ video{
     flex-direction: column;
     align-items: flex-start;
     justify-content: default;
+    line-height: 140px;
 }
-
 
 
 .logotext h2{
@@ -48,9 +48,8 @@ video{
     color: rgba(255, 255, 255, 0.763);
     z-index: 1;
     mix-blend-mode: color white;
-}
-
-
+    text-decoration: none;
+} 
 
 .text a{
     @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
