@@ -65,32 +65,23 @@ li a:hover:not(.active){
     margin-right: 23%;
 }
 
-#myimg{
-    margin-top: 3px;
+  
+.container img{
     width: 250px;
     height: 250px;
     float: left;
-    border-radius: 50%;
-}
-
-  
-.container img{
-
-    width: 80px;
-    height: 30px;
-    float: left;
     vertical-align: bottom;
-    margin-right: 90px;
-    border-radius: 1%; 
+    /* 이미지 오른쪽에 여백 넣는거*/
+    margin-right: 35px;
 }
   
 .container h2{
     padding-bottom: 23px;
     font-size: xx-large;
     position: top; 
-    /*border-bottom: solid;
-    border-width: 1px; */
-    margin-right: 385px 
+    border-bottom: solid;
+    border-width: 1px;
+    margin-left: 280px
 }
   
   
@@ -108,17 +99,7 @@ p{
     border-width: 1px;
 }
 
-.table{
-    width:fit-content; text-align:center;
-}
-.table tr{                            /*<tr>태그는 테이블에서 열을 구분해 줍니다.*/
-    background-color:white
-}
 
-td, th{
-    border : 1px solid black; border-collapse : collapse;
-    padding: 12px;
-}
 
 .footer{
     width: 100%;

@@ -11,14 +11,16 @@ body {
   
 
 .header {
-  padding: 30px;
-  text-align: left;
-  background: rgb(235, 222, 235);
-  color: rgb(51, 51, 51);
-  font-size: 20px;
-}
+    width: 100%;
+    padding: 30px;
+    text-align: left;
+    background: rgb(235, 222, 235);
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+  }
   
 .nav {
+    width: 100%;
     overflow: hidden;
     background-color: rgb(236, 210, 243);
     position: sticky;
@@ -26,10 +28,11 @@ body {
     top: 0;
 }
 
-ul{
+#ul{
     list-style-type: none;
+    font-size: 23px;
     margin: 0px;
-    padding: 4px;
+    padding: 0px;
     overflow: auto;
     background-color: rgb(244, 236, 240);
     border: 1px solid rgb(234, 229, 229);
@@ -52,25 +55,24 @@ li a:hover:not(.active){
 }
 
 .container {   
-    width: 100%;
-    background-color: rgb(233, 233, 233);
+    background-color: white;
     margin:0 auto;
 }
 
-.photo-wrapper{
+.img-wrapper{
     text-align: center;
-    margin-left: 23%;
-    margin-right: 23%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
   
 .container img{
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     display: block;
     float: left;
     text-align: center;
     margin-left: 35px;            /* 이미지 왼쪽에 여백 넣는거*/
-    border-radius: 2%;            /* 둥글게 */ 
+    border-radius: 0%;            /* 둥글게 */ 
 }
   
 .container h2{
@@ -80,7 +82,7 @@ li a:hover:not(.active){
     position: top; 
 }
   
-.container p{
+p{
     font-size: 20px;
     line-height: 180%;
 }
@@ -106,17 +108,18 @@ li a:hover:not(.active){
 
 .img-wrapper{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer img{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     float: right;
     text-align: center;
-    margin-right: 10px;
+    margin-top: 20px;
+    margin-right: 2px;
     border-radius: 50%; /* 그림을 둥글게*/
     ;
  }
